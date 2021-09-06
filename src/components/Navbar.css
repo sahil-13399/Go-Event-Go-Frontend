@@ -1,5 +1,5 @@
 .navbar {
-    background-color:  #26004d;
+    background-color: #11101C;
     height: 80px;
     display: flex;
     justify-content: start;
@@ -13,7 +13,7 @@
   }
   
   .nav-menu {
-    background-color:  #26004d;
+    background-color: #11101C;
     width: 250px;
     height: 100vh;
     display: flex;
@@ -59,14 +59,24 @@
   }
   
   .navbar-toggle {
-    background-color:  #26004d;
+    background-color: #11101C;
     width: 100%;
     height: 80px;
     display: flex;
     justify-content: start;
     align-items: center;
   }
-  
+
   span {
     margin-left: 16px;
   }
+
+.mainSearch {
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  height: 100%;
+  background-color: #1D1B30;
+  border: 0px;
+  border-radius: 10%;
+}

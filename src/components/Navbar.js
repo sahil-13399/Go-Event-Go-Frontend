@@ -26,6 +26,12 @@ function Navbar() {
                 <AiIcons.AiOutlineClose />
               </Link>
             </li>
+            <li >
+              <div className="nav-text">
+                <AiIcons.AiOutlineSearch size={30} />
+                <input type="text" placeholder="Search" className="mainSearch"/>
+              </div>
+            </li>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
